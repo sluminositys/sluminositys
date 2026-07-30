@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="270" viewBox="0 0 1000 270" role="img" aria-labelledby="title desc">
+  <title id="title">Sluminosity</title>
+  <desc id="desc">Animated banner for genomics, artificial intelligence, and agentic research systems</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617">
+        <animate attributeName="stop-color" values="#020617;#0c1a3a;#020617" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="0.52" stop-color="#172554">
+        <animate attributeName="stop-color" values="#172554;#2e1065;#164e63;#172554" dur="14s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="1" stop-color="#042f2e">
+        <animate attributeName="stop-color" values="#042f2e;#083344;#052e16;#042f2e" dur="12s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <radialGradient id="cyanGlow">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.55" />
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="violetGlow">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.45" />
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#cbd5e1" stroke-opacity="0.055" stroke-width="1" />
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <clipPath id="typingClip">
+      <rect x="230" y="151" width="0" height="34">
+        <animate attributeName="width" values="0;540;540;0;0" keyTimes="0;0.42;0.72;0.9;1" dur="9s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <linearGradient id="helix" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0" />
+      <stop offset="0.25" stop-color="#22d3ee" />
+      <stop offset="0.75" stop-color="#a78bfa" />
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="998" height="268" rx="26" fill="url(#background)" stroke="#38bdf8" stroke-opacity="0.25" />
+  <rect x="1" y="1" width="998" height="268" rx="26" fill="url(#grid)" />
+
+  <ellipse cx="115" cy="60" rx="210" ry="150" fill="url(#cyanGlow)">
+    <animate attributeName="cx" values="115;210;115" dur="13s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.65;0.95;0.65" dur="7s" repeatCount="indefinite" />
+  </ellipse>
+  <ellipse cx="870" cy="190" rx="250" ry="170" fill="url(#violetGlow)">
+    <animate attributeName="cx" values="870;780;870" dur="15s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="190;125;190" dur="11s" repeatCount="indefinite" />
+  </ellipse>
+
+  <g fill="none" stroke="#67e8f9" stroke-opacity="0.35">
+    <circle cx="126" cy="72" r="28"><animate attributeName="r" values="24;34;24" dur="4s" repeatCount="indefinite" /></circle>
+    <circle cx="126" cy="72" r="48"><animate attributeName="r" values="43;57;43" dur="6s" repeatCount="indefinite" /></circle>
+    <circle cx="874" cy="74" r="22"><animate attributeName="r" values="18;29;18" dur="5s" repeatCount="indefinite" /></circle>
+    <path d="M126 72 L215 112 L290 66" />
+    <path d="M874 74 L797 117 L722 69" />
+  </g>
+  <g fill="#e0f2fe" filter="url(#glow)">
+    <circle cx="126" cy="72" r="3"><animate attributeName="opacity" values="0.35;1;0.35" dur="2.4s" repeatCount="indefinite" /></circle>
+    <circle cx="215" cy="112" r="2.5"><animate attributeName="opacity" values="1;0.25;1" dur="3.1s" repeatCount="indefinite" /></circle>
+    <circle cx="290" cy="66" r="2" />
+    <circle cx="874" cy="74" r="3"><animate attributeName="opacity" values="1;0.3;1" dur="2.8s" repeatCount="indefinite" /></circle>
+    <circle cx="797" cy="117" r="2.5" />
+    <circle cx="722" cy="69" r="2"><animate attributeName="opacity" values="0.25;1;0.25" dur="3.4s" repeatCount="indefinite" /></circle>
+  </g>
+
+  <text x="500" y="104" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="48" font-weight="700" letter-spacing="9">SLUMINOSITY</text>
+  <text x="500" y="137" text-anchor="middle" fill="#67e8f9" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="5">GENOMICS · AI · AGENTIC SYSTEMS</text>
+  <g clip-path="url(#typingClip)">
+    <text x="500" y="176" text-anchor="middle" fill="#cbd5e1" font-family="Consolas, SFMono-Regular, monospace" font-size="17">building executable research systems</text>
+  </g>
+  <rect x="230" y="157" width="2.5" height="23" rx="1" fill="#22d3ee" filter="url(#glow)">
+    <animate attributeName="x" values="230;770;770;230;230" keyTimes="0;0.42;0.72;0.9;1" dur="9s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="1;0.25;1;0.25;1" dur="0.8s" repeatCount="indefinite" />
+  </rect>
+
+  <g fill="none" stroke="url(#helix)" stroke-width="2.2" opacity="0.8">
+    <path d="M85 228 C150 188 205 258 270 218 S390 178 455 218 S575 258 640 218 S760 178 825 218 S930 250 970 218" stroke-dasharray="12 9">
+      <animate attributeName="stroke-dashoffset" values="0;-84" dur="5s" repeatCount="indefinite" />
+    </path>
+    <path d="M85 208 C150 248 205 178 270 218 S390 258 455 218 S575 178 640 218 S760 258 825 218 S930 186 970 218" stroke-dasharray="12 9">
+      <animate attributeName="stroke-dashoffset" values="0;84" dur="5s" repeatCount="indefinite" />
+    </path>
+  </g>
+  <g stroke="#94a3b8" stroke-opacity="0.32" stroke-width="1.2">
+    <path d="M170 212 L170 224" /><path d="M270 218 L270 218" /><path d="M370 224 L370 212" />
+    <path d="M470 210 L470 226" /><path d="M570 224 L570 212" /><path d="M670 211 L670 225" />
+    <path d="M770 224 L770 212" /><path d="M870 211 L870 225" />
+  </g>
+</svg>
