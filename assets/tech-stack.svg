@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="370" viewBox="0 0 1000 370" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="390" viewBox="0 0 1000 390" role="img" aria-labelledby="title desc">
   <title id="title">Technology stack</title>
-  <desc id="desc">Research and AI, products and agents, and data and infrastructure technologies</desc>
+  <desc id="desc">Model training, agent development, and full-stack development technologies</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#020617" />
@@ -32,8 +32,8 @@
     </filter>
   </defs>
 
-  <rect x="1" y="1" width="998" height="368" rx="24" fill="url(#background)" stroke="#334155" />
-  <rect x="1" y="1" width="998" height="368" rx="24" fill="url(#grid)" />
+  <rect x="1" y="1" width="998" height="388" rx="24" fill="url(#background)" stroke="#334155" />
+  <rect x="1" y="1" width="998" height="388" rx="24" fill="url(#grid)" />
   <ellipse cx="180" cy="72" rx="260" ry="160" fill="url(#aurora)">
     <animate attributeName="cx" values="180;420;180" dur="16s" repeatCount="indefinite" />
   </ellipse>
@@ -54,51 +54,60 @@
     <text x="964" y="48" text-anchor="end" fill="#64748b" font-size="11" letter-spacing="1.5">TOOLS I BUILD WITH</text>
 
     <g transform="translate(32 82)">
-      <rect width="296" height="250" rx="18" fill="#0b1220" fill-opacity="0.92" stroke="#22d3ee" stroke-opacity="0.32" />
-      <rect width="4" height="250" rx="2" fill="url(#cyan)" />
+      <rect width="296" height="280" rx="18" fill="#0b1220" fill-opacity="0.92" stroke="#22d3ee" stroke-opacity="0.32" />
+      <rect width="4" height="280" rx="2" fill="url(#cyan)" />
       <circle cx="268" cy="28" r="5" fill="#22d3ee" filter="url(#glow)">
         <animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite" />
       </circle>
-      <text x="22" y="34" fill="#e0f2fe" font-size="16" font-weight="700">Research &amp; AI</text>
-      <text x="22" y="54" fill="#64748b" font-size="9.5" font-weight="600" letter-spacing="1.6">MODELS · GENOMICS</text>
+      <text x="22" y="34" fill="#e0f2fe" font-size="16" font-weight="700">Model Training</text>
+      <text x="22" y="54" fill="#64748b" font-size="9.5" font-weight="600" letter-spacing="1.3">DEEP LEARNING · DISTRIBUTED</text>
 
       <g transform="translate(20 76)"><rect width="120" height="38" rx="10" fill="#111c2e" stroke="#22d3ee" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#22d3ee"/><text x="30" y="24" fill="#cbd5e1" font-size="13">Python</text></g>
       <g transform="translate(152 76)"><rect width="124" height="38" rx="10" fill="#111c2e" stroke="#22d3ee" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#f97316"/><text x="30" y="24" fill="#cbd5e1" font-size="13">PyTorch</text></g>
-      <g transform="translate(20 124)"><rect width="120" height="38" rx="10" fill="#111c2e" stroke="#22d3ee" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#84cc16"/><text x="30" y="24" fill="#cbd5e1" font-size="13">CUDA</text></g>
-      <g transform="translate(152 124)"><rect width="124" height="38" rx="10" fill="#111c2e" stroke="#22d3ee" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#60a5fa"/><text x="30" y="24" fill="#cbd5e1" font-size="13">Mamba</text></g>
-      <g transform="translate(20 172)"><rect width="256" height="38" rx="10" fill="#111c2e" stroke="#22d3ee" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#38bdf8"/><text x="30" y="24" fill="#cbd5e1" font-size="13">Bioinformatics</text></g>
+      <g transform="translate(20 122)"><rect width="120" height="38" rx="10" fill="#111c2e" stroke="#22d3ee" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#facc15"/><text x="30" y="24" fill="#cbd5e1" font-size="13">Lightning</text></g>
+      <g transform="translate(152 122)"><rect width="124" height="38" rx="10" fill="#111c2e" stroke="#22d3ee" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#a78bfa"/><text x="30" y="24" fill="#cbd5e1" font-size="12">Transformers</text></g>
+      <g transform="translate(20 168)"><rect width="120" height="38" rx="10" fill="#111c2e" stroke="#22d3ee" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#60a5fa"/><text x="30" y="24" fill="#cbd5e1" font-size="12">MLP / CNN</text></g>
+      <g transform="translate(152 168)"><rect width="124" height="38" rx="10" fill="#111c2e" stroke="#22d3ee" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#38bdf8"/><text x="30" y="24" fill="#cbd5e1" font-size="12">RNN / LSTM</text></g>
+      <g transform="translate(20 214)"><rect width="120" height="38" rx="10" fill="#111c2e" stroke="#22d3ee" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#ec4899"/><text x="30" y="24" fill="#cbd5e1" font-size="11.5">BERT / Diffusion</text></g>
+      <g transform="translate(152 214)"><rect width="124" height="38" rx="10" fill="#111c2e" stroke="#22d3ee" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#34d399"/><text x="30" y="24" fill="#cbd5e1" font-size="12">Multi-GPU DDP</text></g>
     </g>
 
     <g transform="translate(352 82)">
-      <rect width="296" height="250" rx="18" fill="#0b1220" fill-opacity="0.92" stroke="#a78bfa" stroke-opacity="0.32" />
-      <rect width="4" height="250" rx="2" fill="url(#violet)" />
+      <rect width="296" height="280" rx="18" fill="#0b1220" fill-opacity="0.92" stroke="#a78bfa" stroke-opacity="0.32" />
+      <rect width="4" height="280" rx="2" fill="url(#violet)" />
       <circle cx="268" cy="28" r="5" fill="#a78bfa" filter="url(#glow)">
         <animate attributeName="opacity" values="1;0.3;1" dur="2.8s" repeatCount="indefinite" />
       </circle>
-      <text x="22" y="34" fill="#ede9fe" font-size="16" font-weight="700">Products &amp; Agents</text>
-      <text x="22" y="54" fill="#64748b" font-size="9.5" font-weight="600" letter-spacing="1.6">INTERFACES · AUTOMATION</text>
+      <text x="22" y="34" fill="#ede9fe" font-size="16" font-weight="700">Agent Development</text>
+      <text x="22" y="54" fill="#64748b" font-size="9.5" font-weight="600" letter-spacing="1.4">FRAMEWORKS · VECTOR DATA</text>
 
-      <g transform="translate(20 76)"><rect width="120" height="38" rx="10" fill="#11182b" stroke="#a78bfa" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#60a5fa"/><text x="30" y="24" fill="#cbd5e1" font-size="13">TypeScript</text></g>
-      <g transform="translate(152 76)"><rect width="124" height="38" rx="10" fill="#11182b" stroke="#a78bfa" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#22d3ee"/><text x="30" y="24" fill="#cbd5e1" font-size="13">React</text></g>
-      <g transform="translate(20 124)"><rect width="120" height="38" rx="10" fill="#11182b" stroke="#a78bfa" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#facc15"/><text x="30" y="24" fill="#cbd5e1" font-size="13">Tauri</text></g>
-      <g transform="translate(152 124)"><rect width="124" height="38" rx="10" fill="#11182b" stroke="#a78bfa" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#ec4899"/><text x="30" y="24" fill="#cbd5e1" font-size="13">MCP</text></g>
-      <g transform="translate(20 172)"><rect width="256" height="38" rx="10" fill="#11182b" stroke="#a78bfa" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#a78bfa"/><text x="30" y="24" fill="#cbd5e1" font-size="13">LangGraph</text></g>
+      <g transform="translate(20 76)"><rect width="120" height="38" rx="10" fill="#11182b" stroke="#a78bfa" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#22d3ee"/><text x="30" y="24" fill="#cbd5e1" font-size="13">LangChain</text></g>
+      <g transform="translate(152 76)"><rect width="124" height="38" rx="10" fill="#11182b" stroke="#a78bfa" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#a78bfa"/><text x="30" y="24" fill="#cbd5e1" font-size="13">LangGraph</text></g>
+      <g transform="translate(20 122)"><rect width="120" height="38" rx="10" fill="#11182b" stroke="#a78bfa" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#facc15"/><text x="30" y="24" fill="#cbd5e1" font-size="13">CrewAI</text></g>
+      <g transform="translate(152 122)"><rect width="124" height="38" rx="10" fill="#11182b" stroke="#a78bfa" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#ec4899"/><text x="30" y="24" fill="#cbd5e1" font-size="13">AgentScope</text></g>
+      <g transform="translate(20 168)"><rect width="120" height="38" rx="10" fill="#11182b" stroke="#a78bfa" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#60a5fa"/><text x="30" y="24" fill="#cbd5e1" font-size="13">ChromaDB</text></g>
+      <g transform="translate(152 168)"><rect width="124" height="38" rx="10" fill="#11182b" stroke="#a78bfa" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#22c55e"/><text x="30" y="24" fill="#cbd5e1" font-size="13">Neo4j</text></g>
+      <g transform="translate(20 214)"><rect width="120" height="38" rx="10" fill="#11182b" stroke="#a78bfa" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#ef4444"/><text x="30" y="24" fill="#cbd5e1" font-size="13">Qdrant</text></g>
+      <g transform="translate(152 214)"><rect width="124" height="38" rx="10" fill="#11182b" stroke="#a78bfa" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#34d399"/><text x="30" y="24" fill="#cbd5e1" font-size="12">Agentic RL</text></g>
     </g>
 
     <g transform="translate(672 82)">
-      <rect width="296" height="250" rx="18" fill="#0b1220" fill-opacity="0.92" stroke="#34d399" stroke-opacity="0.32" />
-      <rect width="4" height="250" rx="2" fill="url(#green)" />
+      <rect width="296" height="280" rx="18" fill="#0b1220" fill-opacity="0.92" stroke="#34d399" stroke-opacity="0.32" />
+      <rect width="4" height="280" rx="2" fill="url(#green)" />
       <circle cx="268" cy="28" r="5" fill="#34d399" filter="url(#glow)">
         <animate attributeName="opacity" values="0.3;1;0.3" dur="3.1s" repeatCount="indefinite" />
       </circle>
-      <text x="22" y="34" fill="#d1fae5" font-size="16" font-weight="700">Data &amp; Infrastructure</text>
-      <text x="22" y="54" fill="#64748b" font-size="9.5" font-weight="600" letter-spacing="1.6">STORAGE · RUNTIME</text>
+      <text x="22" y="34" fill="#d1fae5" font-size="16" font-weight="700">Full-Stack Development</text>
+      <text x="22" y="54" fill="#64748b" font-size="9.5" font-weight="600" letter-spacing="1.2">BACKEND · FRONTEND · DATA</text>
 
-      <g transform="translate(20 76)"><rect width="120" height="38" rx="10" fill="#0e1c24" stroke="#34d399" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#22c55e"/><text x="30" y="24" fill="#cbd5e1" font-size="13">Neo4j</text></g>
-      <g transform="translate(152 76)"><rect width="124" height="38" rx="10" fill="#0e1c24" stroke="#34d399" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#60a5fa"/><text x="30" y="24" fill="#cbd5e1" font-size="13">PostgreSQL</text></g>
-      <g transform="translate(20 124)"><rect width="120" height="38" rx="10" fill="#0e1c24" stroke="#34d399" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#ef4444"/><text x="30" y="24" fill="#cbd5e1" font-size="13">Qdrant</text></g>
-      <g transform="translate(152 124)"><rect width="124" height="38" rx="10" fill="#0e1c24" stroke="#34d399" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#38bdf8"/><text x="30" y="24" fill="#cbd5e1" font-size="13">Docker</text></g>
-      <g transform="translate(20 172)"><rect width="256" height="38" rx="10" fill="#0e1c24" stroke="#34d399" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#f8fafc"/><text x="30" y="24" fill="#cbd5e1" font-size="13">Linux</text></g>
+      <g transform="translate(20 76)"><rect width="120" height="38" rx="10" fill="#0e1c24" stroke="#34d399" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#f97316"/><text x="30" y="24" fill="#cbd5e1" font-size="13">Java</text></g>
+      <g transform="translate(152 76)"><rect width="124" height="38" rx="10" fill="#0e1c24" stroke="#34d399" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#22c55e"/><text x="30" y="24" fill="#cbd5e1" font-size="12">Spring Boot</text></g>
+      <g transform="translate(20 122)"><rect width="120" height="38" rx="10" fill="#0e1c24" stroke="#34d399" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#60a5fa"/><text x="30" y="24" fill="#cbd5e1" font-size="13">TypeScript</text></g>
+      <g transform="translate(152 122)"><rect width="124" height="38" rx="10" fill="#0e1c24" stroke="#34d399" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#34d399"/><text x="30" y="24" fill="#cbd5e1" font-size="13">Vue</text></g>
+      <g transform="translate(20 168)"><rect width="120" height="38" rx="10" fill="#0e1c24" stroke="#34d399" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#38bdf8"/><text x="30" y="24" fill="#cbd5e1" font-size="12">PostgreSQL</text></g>
+      <g transform="translate(152 168)"><rect width="124" height="38" rx="10" fill="#0e1c24" stroke="#34d399" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#facc15"/><text x="30" y="24" fill="#cbd5e1" font-size="13">MySQL</text></g>
+      <g transform="translate(20 214)"><rect width="120" height="38" rx="10" fill="#0e1c24" stroke="#34d399" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#ef4444"/><text x="30" y="24" fill="#cbd5e1" font-size="13">Redis</text></g>
+      <g transform="translate(152 214)"><rect width="124" height="38" rx="10" fill="#0e1c24" stroke="#34d399" stroke-opacity="0.25"/><circle cx="17" cy="19" r="4" fill="#38bdf8"/><text x="30" y="24" fill="#cbd5e1" font-size="13">Docker</text></g>
     </g>
   </g>
 </svg>

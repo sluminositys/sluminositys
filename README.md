@@ -14,7 +14,7 @@
 
 ## About
 
-I build tools for genomic research—from deep-learning models for sequence analysis to agent systems that make scientific workflows easier to run, inspect, and reuse.
+Working at the intersection of population genomics and artificial intelligence, I develop computational methods to uncover signals of human evolutionary history—and agentic systems that make complex bioinformatics research scalable, rigorous, and reproducible.
 
 ## Featured systems
 
