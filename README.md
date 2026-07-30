@@ -12,17 +12,9 @@
   <samp>Genomics × AI · Agentic systems · Research engineering</samp>
 </p>
 
-## Research console
+## About
 
-```python
-sluminosity = {
-    "questions": ["How can models read genomes?", "How can agents improve research?"],
-    "building":  ["genomic AI", "executable workflows", "durable research tools"],
-    "principles": ["reproducible", "auditable", "useful"],
-}
-```
-
-I work where **human genomics**, **machine learning**, and **research infrastructure** meet—turning scientific questions into systems that can be executed, inspected, and reused.
+I build tools for genomic research—from deep-learning models for sequence analysis to agent systems that make scientific workflows easier to run, inspect, and reuse.
 
 ## Featured systems
 
@@ -48,37 +40,10 @@ I work where **human genomics**, **machine learning**, and **research infrastruc
   </tr>
 </table>
 
-## From question to research artifact
-
-```mermaid
-flowchart LR
-    A["Genomic data"] --> B["Models & algorithms"]
-    B --> C["Agentic workflows"]
-    C --> D["Verified execution"]
-    D --> E["Reusable artifacts"]
-    E -. "evidence & experience" .-> C
-
-    style A fill:#082f49,stroke:#22d3ee,color:#e0f2fe
-    style B fill:#172554,stroke:#60a5fa,color:#dbeafe
-    style C fill:#2e1065,stroke:#a78bfa,color:#ede9fe
-    style D fill:#052e16,stroke:#22c55e,color:#dcfce7
-    style E fill:#422006,stroke:#f59e0b,color:#fef3c7
-```
-
-## Tech constellation
+## Tech stack
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-0f172a?style=flat-square&logo=python&logoColor=38bdf8" alt="Python" />
-  <img src="https://img.shields.io/badge/PyTorch-0f172a?style=flat-square&logo=pytorch&logoColor=f97316" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/CUDA-0f172a?style=flat-square&logo=nvidia&logoColor=84cc16" alt="CUDA" />
-  <img src="https://img.shields.io/badge/TypeScript-0f172a?style=flat-square&logo=typescript&logoColor=60a5fa" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-0f172a?style=flat-square&logo=react&logoColor=22d3ee" alt="React" />
-  <img src="https://img.shields.io/badge/Tauri-0f172a?style=flat-square&logo=tauri&logoColor=facc15" alt="Tauri" />
-  <img src="https://img.shields.io/badge/Neo4j-0f172a?style=flat-square&logo=neo4j&logoColor=22c55e" alt="Neo4j" />
-  <img src="https://img.shields.io/badge/PostgreSQL-0f172a?style=flat-square&logo=postgresql&logoColor=60a5fa" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Qdrant-0f172a?style=flat-square&logo=qdrant&logoColor=ef4444" alt="Qdrant" />
-  <img src="https://img.shields.io/badge/Docker-0f172a?style=flat-square&logo=docker&logoColor=38bdf8" alt="Docker" />
-  <img src="https://img.shields.io/badge/Linux-0f172a?style=flat-square&logo=linux&logoColor=f8fafc" alt="Linux" />
+  <img src="./assets/tech-stack.svg" width="100%" alt="Technology stack grouped into research and AI, products and agents, and data and infrastructure" />
 </p>
 
 ## Live telemetry
@@ -94,5 +59,5 @@ flowchart LR
 </picture>
 
 <p align="center">
-  <sub>Research should not end as an answer—it should become an executable, explainable, reusable system.</sub>
+  <sub>Curious about genomes. Building tools that help researchers move from ideas to evidence.</sub>
 </p>
