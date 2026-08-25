@@ -32,10 +32,15 @@ Working at the intersection of population genomics and artificial intelligence, 
     </td>
   </tr>
   <tr>
-    <td colspan="2" valign="top">
+    <td width="50%" valign="top">
       <h3>✨ <a href="https://github.com/sluminositys/Atria">Atria</a></h3>
       <p>A desktop-first HTML artifact workspace for collecting, annotating, organizing, and reusing AI-generated coding and research outputs—with MCP-native agent access.</p>
       <p><code>Tauri</code> <code>React</code> <code>TypeScript</code> <code>MCP</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🌿 <a href="https://github.com/sluminositys/dsh-nested-followups">dsh-nested-followups</a></h3>
+      <p>A DeepSeek Harness plugin that turns follow-ups on any past answer into isolated, read-only conversation branches—keeping the main task focused while preserving the context behind each question.</p>
+      <p><code>DeepSeek Harness</code> <code>TypeScript</code> <code>Conversation Trees</code></p>
     </td>
   </tr>
 </table>
