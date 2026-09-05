@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" role="img" aria-labelledby="title desc">
+<title id="title">Live GitHub research telemetry for sluminositys</title>
+<desc id="desc">Public repositories, recently active projects, source size, followers, and latest active project</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#020617"/><stop offset=".55" stop-color="#0f172a"/><stop offset="1" stop-color="#082f49"/>
+  </linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#38bdf8" stroke-opacity=".04"/>
+  </pattern>
+  <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset=".5" stop-color="#22d3ee" stop-opacity=".55"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect x="1" y="1" width="998" height="228" rx="20" fill="url(#bg)" stroke="#334155"/>
+<rect x="1" y="1" width="998" height="228" rx="20" fill="url(#grid)"/>
+<g font-family="Segoe UI, Inter, Arial, sans-serif">
+  <circle cx="36" cy="36" r="5" fill="#22c55e"><animate attributeName="opacity" values=".25;1;.25" dur="1.8s" repeatCount="indefinite"/></circle>
+  <text x="52" y="41" fill="#e2e8f0" font-size="14" font-weight="700" letter-spacing="2.4">LIVE RESEARCH TELEMETRY</text>
+  <text x="964" y="41" text-anchor="end" fill="#64748b" font-size="11">2026-09-05 05:44 UTC</text>
+  <g transform="translate(34 70)">
+  <rect width="208" height="92" rx="14" fill="#0f172a" stroke="#22d3ee" stroke-opacity=".34"/>
+  <text x="18" y="34" fill="#22d3ee" font-size="25" font-weight="700">17</text>
+  <text x="18" y="64" fill="#94a3b8" font-size="11" font-weight="600" letter-spacing="1.8">PUBLIC REPOS</text>
+</g><g transform="translate(275 70)">
+  <rect width="208" height="92" rx="14" fill="#0f172a" stroke="#60a5fa" stroke-opacity=".34"/>
+  <text x="18" y="34" fill="#60a5fa" font-size="25" font-weight="700">7</text>
+  <text x="18" y="64" fill="#94a3b8" font-size="11" font-weight="600" letter-spacing="1.8">ACTIVE · 90D</text>
+</g><g transform="translate(516 70)">
+  <rect width="208" height="92" rx="14" fill="#0f172a" stroke="#a78bfa" stroke-opacity=".34"/>
+  <text x="18" y="34" fill="#a78bfa" font-size="25" font-weight="700">1002</text>
+  <text x="18" y="64" fill="#94a3b8" font-size="11" font-weight="600" letter-spacing="1.8">SOURCE MB</text>
+</g><g transform="translate(757 70)">
+  <rect width="208" height="92" rx="14" fill="#0f172a" stroke="#34d399" stroke-opacity=".34"/>
+  <text x="18" y="34" fill="#34d399" font-size="25" font-weight="700">4</text>
+  <text x="18" y="64" fill="#94a3b8" font-size="11" font-weight="600" letter-spacing="1.8">FOLLOWERS</text>
+</g>
+  <text x="34" y="198" fill="#64748b" font-size="11" font-weight="600" letter-spacing="1.5">LATEST PROJECT SIGNAL</text>
+  <text x="230" y="198" fill="#cbd5e1" font-size="13" font-weight="600">dsh-nested-followups</text>
+  <text x="964" y="198" text-anchor="end" fill="#64748b" font-size="11">UPDATED 2026-09-05</text>
+</g>
+<rect x="18" y="0" width="964" height="2" fill="url(#scan)" opacity=".55">
+  <animate attributeName="y" values="8;220;8" dur="7s" repeatCount="indefinite"/>
+</rect>
+</svg>
